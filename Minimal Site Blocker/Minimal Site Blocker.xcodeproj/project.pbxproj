@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7D323E2DCAA9DB00508894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D323D2DCAA9DB00508894 /* AppDelegate.swift */; };
+		FA7D32402DCAA9DB00508894 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D323F2DCAA9DB00508894 /* SceneDelegate.swift */; };
+		FA7D32432DCAA9DB00508894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32412DCAA9DB00508894 /* LaunchScreen.storyboard */; };
+		FA7D32462DCAA9DB00508894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32442DCAA9DB00508894 /* Main.storyboard */; };
+		FA7D324F2DCAA9DB00508894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D324E2DCAA9DB00508894 /* AppDelegate.swift */; };
+		FA7D32522DCAA9DB00508894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32502DCAA9DB00508894 /* Main.storyboard */; };
+		FA7D325A2DCAA9DB00508894 /* Minimal Site Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FA7D32592DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA7D32642DCAA9DB00508894 /* Minimal Site Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FA7D32632DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA7D326A2DCAA9DB00508894 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FA7D322D2DCAA9DA00508894 /* Main.html */; };
+		FA7D326B2DCAA9DB00508894 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FA7D322D2DCAA9DA00508894 /* Main.html */; };
+		FA7D326C2DCAA9DB00508894 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D322F2DCAA9DA00508894 /* Icon.png */; };
+		FA7D326D2DCAA9DB00508894 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D322F2DCAA9DA00508894 /* Icon.png */; };
+		FA7D326E2DCAA9DB00508894 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32302DCAA9DA00508894 /* Style.css */; };
+		FA7D326F2DCAA9DB00508894 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32302DCAA9DA00508894 /* Style.css */; };
+		FA7D32702DCAA9DB00508894 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32312DCAA9DA00508894 /* Script.js */; };
+		FA7D32712DCAA9DB00508894 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32312DCAA9DA00508894 /* Script.js */; };
+		FA7D32722DCAA9DB00508894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D32322DCAA9DA00508894 /* ViewController.swift */; };
+		FA7D32732DCAA9DB00508894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D32322DCAA9DA00508894 /* ViewController.swift */; };
+		FA7D32742DCAA9DB00508894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32332DCAA9DB00508894 /* Assets.xcassets */; };
+		FA7D32752DCAA9DB00508894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32332DCAA9DB00508894 /* Assets.xcassets */; };
+		FA7D32762DCAA9DB00508894 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D32352DCAA9DB00508894 /* SafariWebExtensionHandler.swift */; };
+		FA7D32772DCAA9DB00508894 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D32352DCAA9DB00508894 /* SafariWebExtensionHandler.swift */; };
+		FA7D328E2DCAA9DB00508894 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32892DCAA9DB00508894 /* popup.js */; };
+		FA7D328F2DCAA9DB00508894 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FA7D328A2DCAA9DB00508894 /* popup.html */; };
+		FA7D32902DCAA9DB00508894 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7D328B2DCAA9DB00508894 /* manifest.json */; };
+		FA7D32912DCAA9DB00508894 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA7D328C2DCAA9DB00508894 /* content.js */; };
+		FA7D32932DCAA9DB00508894 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FA7D32892DCAA9DB00508894 /* popup.js */; };
+		FA7D32942DCAA9DB00508894 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FA7D328A2DCAA9DB00508894 /* popup.html */; };
+		FA7D32952DCAA9DB00508894 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7D328B2DCAA9DB00508894 /* manifest.json */; };
+		FA7D32962DCAA9DB00508894 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA7D328C2DCAA9DB00508894 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7D325B2DCAA9DB00508894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D32272DCAA9D900508894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D32582DCAA9DB00508894;
+			remoteInfo = "Minimal Site Blocker Extension (iOS)";
+		};
+		FA7D32652DCAA9DB00508894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D32272DCAA9D900508894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D32622DCAA9DB00508894;
+			remoteInfo = "Minimal Site Blocker Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA7D327D2DCAA9DB00508894 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA7D325A2DCAA9DB00508894 /* Minimal Site Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32842DCAA9DB00508894 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA7D32642DCAA9DB00508894 /* Minimal Site Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA7D322E2DCAA9DA00508894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		FA7D322F2DCAA9DA00508894 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FA7D32302DCAA9DA00508894 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FA7D32312DCAA9DA00508894 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FA7D32322DCAA9DA00508894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7D32332DCAA9DB00508894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7D32352DCAA9DB00508894 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FA7D323A2DCAA9DB00508894 /* Minimal Site Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minimal Site Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D323D2DCAA9DB00508894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7D323F2DCAA9DB00508894 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA7D32422DCAA9DB00508894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7D32452DCAA9DB00508894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7D32472DCAA9DB00508894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D324C2DCAA9DB00508894 /* Minimal Site Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minimal Site Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D324E2DCAA9DB00508894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7D32512DCAA9DB00508894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7D32532DCAA9DB00508894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D32542DCAA9DB00508894 /* Minimal Site Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Minimal Site Blocker.entitlements"; sourceTree = "<group>"; };
+		FA7D32592DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Minimal Site Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D325E2DCAA9DB00508894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D32632DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Minimal Site Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D32682DCAA9DB00508894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D32692DCAA9DB00508894 /* Minimal Site Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Minimal Site Blocker.entitlements"; sourceTree = "<group>"; };
+		FA7D32892DCAA9DB00508894 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../popup.js; sourceTree = "<group>"; };
+		FA7D328A2DCAA9DB00508894 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../popup.html; sourceTree = "<group>"; };
+		FA7D328B2DCAA9DB00508894 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		FA7D328C2DCAA9DB00508894 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../content.js; sourceTree = "<group>"; };
+		FA7D328D2DCAA9DB00508894 /* Minimal Site Blocker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Minimal Site Blocker"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7D32372DCAA9DB00508894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32492DCAA9DB00508894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32562DCAA9DB00508894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32602DCAA9DB00508894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7D32262DCAA9D900508894 = {
+			isa = PBXGroup;
+			children = (
+				FA7D322B2DCAA9DA00508894 /* Shared (App) */,
+				FA7D32342DCAA9DB00508894 /* Shared (Extension) */,
+				FA7D323C2DCAA9DB00508894 /* iOS (App) */,
+				FA7D324D2DCAA9DB00508894 /* macOS (App) */,
+				FA7D325D2DCAA9DB00508894 /* iOS (Extension) */,
+				FA7D32672DCAA9DB00508894 /* macOS (Extension) */,
+				FA7D323B2DCAA9DB00508894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7D322B2DCAA9DA00508894 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D32322DCAA9DA00508894 /* ViewController.swift */,
+				FA7D32332DCAA9DB00508894 /* Assets.xcassets */,
+				FA7D322C2DCAA9DA00508894 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FA7D322C2DCAA9DA00508894 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D322D2DCAA9DA00508894 /* Main.html */,
+				FA7D322F2DCAA9DA00508894 /* Icon.png */,
+				FA7D32302DCAA9DA00508894 /* Style.css */,
+				FA7D32312DCAA9DA00508894 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA7D32342DCAA9DB00508894 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D32882DCAA9DB00508894 /* Resources */,
+				FA7D32352DCAA9DB00508894 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FA7D323B2DCAA9DB00508894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D323A2DCAA9DB00508894 /* Minimal Site Blocker.app */,
+				FA7D324C2DCAA9DB00508894 /* Minimal Site Blocker.app */,
+				FA7D32592DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */,
+				FA7D32632DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7D323C2DCAA9DB00508894 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D323D2DCAA9DB00508894 /* AppDelegate.swift */,
+				FA7D323F2DCAA9DB00508894 /* SceneDelegate.swift */,
+				FA7D32412DCAA9DB00508894 /* LaunchScreen.storyboard */,
+				FA7D32442DCAA9DB00508894 /* Main.storyboard */,
+				FA7D32472DCAA9DB00508894 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FA7D324D2DCAA9DB00508894 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D324E2DCAA9DB00508894 /* AppDelegate.swift */,
+				FA7D32502DCAA9DB00508894 /* Main.storyboard */,
+				FA7D32532DCAA9DB00508894 /* Info.plist */,
+				FA7D32542DCAA9DB00508894 /* Minimal Site Blocker.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		FA7D325D2DCAA9DB00508894 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D325E2DCAA9DB00508894 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FA7D32672DCAA9DB00508894 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D32682DCAA9DB00508894 /* Info.plist */,
+				FA7D32692DCAA9DB00508894 /* Minimal Site Blocker.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FA7D32882DCAA9DB00508894 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D32892DCAA9DB00508894 /* popup.js */,
+				FA7D328A2DCAA9DB00508894 /* popup.html */,
+				FA7D328B2DCAA9DB00508894 /* manifest.json */,
+				FA7D328C2DCAA9DB00508894 /* content.js */,
+				FA7D328D2DCAA9DB00508894 /* Minimal Site Blocker */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7D32392DCAA9DB00508894 /* Minimal Site Blocker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D327E2DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker (iOS)" */;
+			buildPhases = (
+				FA7D32362DCAA9DB00508894 /* Sources */,
+				FA7D32372DCAA9DB00508894 /* Frameworks */,
+				FA7D32382DCAA9DB00508894 /* Resources */,
+				FA7D327D2DCAA9DB00508894 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D325C2DCAA9DB00508894 /* PBXTargetDependency */,
+			);
+			name = "Minimal Site Blocker (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Minimal Site Blocker (iOS)";
+			productReference = FA7D323A2DCAA9DB00508894 /* Minimal Site Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7D324B2DCAA9DB00508894 /* Minimal Site Blocker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D32852DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker (macOS)" */;
+			buildPhases = (
+				FA7D32482DCAA9DB00508894 /* Sources */,
+				FA7D32492DCAA9DB00508894 /* Frameworks */,
+				FA7D324A2DCAA9DB00508894 /* Resources */,
+				FA7D32842DCAA9DB00508894 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D32662DCAA9DB00508894 /* PBXTargetDependency */,
+			);
+			name = "Minimal Site Blocker (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Minimal Site Blocker (macOS)";
+			productReference = FA7D324C2DCAA9DB00508894 /* Minimal Site Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7D32582DCAA9DB00508894 /* Minimal Site Blocker Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D327A2DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker Extension (iOS)" */;
+			buildPhases = (
+				FA7D32552DCAA9DB00508894 /* Sources */,
+				FA7D32562DCAA9DB00508894 /* Frameworks */,
+				FA7D32572DCAA9DB00508894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minimal Site Blocker Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Minimal Site Blocker Extension (iOS)";
+			productReference = FA7D32592DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FA7D32622DCAA9DB00508894 /* Minimal Site Blocker Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D32812DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker Extension (macOS)" */;
+			buildPhases = (
+				FA7D325F2DCAA9DB00508894 /* Sources */,
+				FA7D32602DCAA9DB00508894 /* Frameworks */,
+				FA7D32612DCAA9DB00508894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minimal Site Blocker Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Minimal Site Blocker Extension (macOS)";
+			productReference = FA7D32632DCAA9DB00508894 /* Minimal Site Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7D32272DCAA9D900508894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FA7D32392DCAA9DB00508894 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FA7D324B2DCAA9DB00508894 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FA7D32582DCAA9DB00508894 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FA7D32622DCAA9DB00508894 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = FA7D322A2DCAA9D900508894 /* Build configuration list for PBXProject "Minimal Site Blocker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7D32262DCAA9D900508894;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA7D323B2DCAA9DB00508894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7D32392DCAA9DB00508894 /* Minimal Site Blocker (iOS) */,
+				FA7D324B2DCAA9DB00508894 /* Minimal Site Blocker (macOS) */,
+				FA7D32582DCAA9DB00508894 /* Minimal Site Blocker Extension (iOS) */,
+				FA7D32622DCAA9DB00508894 /* Minimal Site Blocker Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7D32382DCAA9DB00508894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D326C2DCAA9DB00508894 /* Icon.png in Resources */,
+				FA7D32432DCAA9DB00508894 /* LaunchScreen.storyboard in Resources */,
+				FA7D326A2DCAA9DB00508894 /* Main.html in Resources */,
+				FA7D32702DCAA9DB00508894 /* Script.js in Resources */,
+				FA7D32742DCAA9DB00508894 /* Assets.xcassets in Resources */,
+				FA7D32462DCAA9DB00508894 /* Main.storyboard in Resources */,
+				FA7D326E2DCAA9DB00508894 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D324A2DCAA9DB00508894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D326D2DCAA9DB00508894 /* Icon.png in Resources */,
+				FA7D326F2DCAA9DB00508894 /* Style.css in Resources */,
+				FA7D32522DCAA9DB00508894 /* Main.storyboard in Resources */,
+				FA7D32712DCAA9DB00508894 /* Script.js in Resources */,
+				FA7D32752DCAA9DB00508894 /* Assets.xcassets in Resources */,
+				FA7D326B2DCAA9DB00508894 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32572DCAA9DB00508894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D32962DCAA9DB00508894 /* content.js in Resources */,
+				FA7D32932DCAA9DB00508894 /* popup.js in Resources */,
+				FA7D32952DCAA9DB00508894 /* manifest.json in Resources */,
+				FA7D32942DCAA9DB00508894 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32612DCAA9DB00508894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D32912DCAA9DB00508894 /* content.js in Resources */,
+				FA7D328E2DCAA9DB00508894 /* popup.js in Resources */,
+				FA7D32902DCAA9DB00508894 /* manifest.json in Resources */,
+				FA7D328F2DCAA9DB00508894 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7D32362DCAA9DB00508894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D32722DCAA9DB00508894 /* ViewController.swift in Sources */,
+				FA7D323E2DCAA9DB00508894 /* AppDelegate.swift in Sources */,
+				FA7D32402DCAA9DB00508894 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32482DCAA9DB00508894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D32732DCAA9DB00508894 /* ViewController.swift in Sources */,
+				FA7D324F2DCAA9DB00508894 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D32552DCAA9DB00508894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D32762DCAA9DB00508894 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D325F2DCAA9DB00508894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D32772DCAA9DB00508894 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7D325C2DCAA9DB00508894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D32582DCAA9DB00508894 /* Minimal Site Blocker Extension (iOS) */;
+			targetProxy = FA7D325B2DCAA9DB00508894 /* PBXContainerItemProxy */;
+		};
+		FA7D32662DCAA9DB00508894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D32622DCAA9DB00508894 /* Minimal Site Blocker Extension (macOS) */;
+			targetProxy = FA7D32652DCAA9DB00508894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7D322D2DCAA9DA00508894 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D322E2DCAA9DA00508894 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FA7D32412DCAA9DB00508894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D32422DCAA9DB00508894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7D32442DCAA9DB00508894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D32452DCAA9DB00508894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7D32502DCAA9DB00508894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D32512DCAA9DB00508894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7D32782DCAA9DB00508894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Minimal Site Blocker";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7D32792DCAA9DB00508894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Minimal Site Blocker";
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA7D327B2DCAA9DB00508894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker.Extension";
+				PRODUCT_NAME = "Minimal Site Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7D327C2DCAA9DB00508894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker.Extension";
+				PRODUCT_NAME = "Minimal Site Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7D327F2DCAA9DB00508894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker";
+				PRODUCT_NAME = "Minimal Site Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7D32802DCAA9DB00508894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker";
+				PRODUCT_NAME = "Minimal Site Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7D32822DCAA9DB00508894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Minimal Site Blocker.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker.Extension";
+				PRODUCT_NAME = "Minimal Site Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA7D32832DCAA9DB00508894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Minimal Site Blocker.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker.Extension";
+				PRODUCT_NAME = "Minimal Site Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA7D32862DCAA9DB00508894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Minimal Site Blocker.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker";
+				PRODUCT_NAME = "Minimal Site Blocker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA7D32872DCAA9DB00508894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Minimal Site Blocker.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R48S2N947;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minimalist Site Blocker";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dkBuilds.Minimal-Site-Blocker";
+				PRODUCT_NAME = "Minimal Site Blocker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7D322A2DCAA9D900508894 /* Build configuration list for PBXProject "Minimal Site Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D32782DCAA9DB00508894 /* Debug */,
+				FA7D32792DCAA9DB00508894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D327A2DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D327B2DCAA9DB00508894 /* Debug */,
+				FA7D327C2DCAA9DB00508894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D327E2DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D327F2DCAA9DB00508894 /* Debug */,
+				FA7D32802DCAA9DB00508894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D32812DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D32822DCAA9DB00508894 /* Debug */,
+				FA7D32832DCAA9DB00508894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D32852DCAA9DB00508894 /* Build configuration list for PBXNativeTarget "Minimal Site Blocker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D32862DCAA9DB00508894 /* Debug */,
+				FA7D32872DCAA9DB00508894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7D32272DCAA9D900508894 /* Project object */;
+}
