@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FA111A062DCE9E61008B45C1 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43B12DCE957C0040DC26 /* content.js */; };
-		FA111A072DCE9E61008B45C1 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43AF2DCE957C0040DC26 /* manifest.json */; };
 		FA111A082DCE9E61008B45C1 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43B02DCE957C0040DC26 /* popup.html */; };
 		FA111A092DCE9E61008B45C1 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43B22DCE957C0040DC26 /* popup.js */; };
-		FA3B43B32DCE957C0040DC26 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43AF2DCE957C0040DC26 /* manifest.json */; };
+		FA1A3A7A2DCEB05A00ADAD1E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1A3A792DCEB05A00ADAD1E /* manifest.json */; };
+		FA1A3A7B2DCEB05E00ADAD1E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1A3A792DCEB05A00ADAD1E /* manifest.json */; };
 		FA3B43B42DCE957C0040DC26 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43B02DCE957C0040DC26 /* popup.html */; };
 		FA3B43B52DCE957C0040DC26 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43B12DCE957C0040DC26 /* content.js */; };
 		FA3B43B62DCE957C0040DC26 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FA3B43B22DCE957C0040DC26 /* popup.js */; };
@@ -82,7 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA3B43AF2DCE957C0040DC26 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../src/manifest.json; sourceTree = "<group>"; };
+		FA1A3A792DCEB05A00ADAD1E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../safari/manifest.json; sourceTree = "<group>"; };
 		FA3B43B02DCE957C0040DC26 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../src/popup.html; sourceTree = "<group>"; };
 		FA3B43B12DCE957C0040DC26 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../src/content.js; sourceTree = "<group>"; };
 		FA3B43B22DCE957C0040DC26 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../src/popup.js; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 		FA7D32262DCAA9D900508894 = {
 			isa = PBXGroup;
 			children = (
+				FA1A3A792DCEB05A00ADAD1E /* manifest.json */,
 				FA3B43B12DCE957C0040DC26 /* content.js */,
-				FA3B43AF2DCE957C0040DC26 /* manifest.json */,
 				FA3B43B02DCE957C0040DC26 /* popup.html */,
 				FA3B43B22DCE957C0040DC26 /* popup.js */,
 				FA7D322B2DCAA9DA00508894 /* Shared (App) */,
@@ -420,8 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1A3A7B2DCEB05E00ADAD1E /* manifest.json in Resources */,
 				FA111A062DCE9E61008B45C1 /* content.js in Resources */,
-				FA111A072DCE9E61008B45C1 /* manifest.json in Resources */,
 				FA111A082DCE9E61008B45C1 /* popup.html in Resources */,
 				FA111A092DCE9E61008B45C1 /* popup.js in Resources */,
 			);
@@ -431,7 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3B43B32DCE957C0040DC26 /* manifest.json in Resources */,
+				FA1A3A7A2DCEB05A00ADAD1E /* manifest.json in Resources */,
 				FA3B43B42DCE957C0040DC26 /* popup.html in Resources */,
 				FA3B43B52DCE957C0040DC26 /* content.js in Resources */,
 				FA3B43B62DCE957C0040DC26 /* popup.js in Resources */,

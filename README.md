@@ -10,7 +10,7 @@ Unlike other website blocker extensions, Minimal Site Blocker does not track you
 
 *   **Intuitive Design:** No "how-to" screen is necessary.
 *   **Open Source:** The code is available for anyone to review.
-*   **Cross-Platform:** Available as an iOS and Mac app.
+*   **Cross-Platform:** Available as a chrome extension and an iOS + Mac app.
 
 ## Why I Made This
 
