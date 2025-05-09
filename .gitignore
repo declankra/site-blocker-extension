@@ -1,0 +1,4 @@
+build/
+safari/DerivedData/
+*.xcarchive
+*.p8

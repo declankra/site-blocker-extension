@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Site Blocker</title>
+  <style>
+    body { font-family: sans-serif; width: 300px; padding: 10px; }
+    input[type="text"] { width: 100%; box-sizing: border-box; margin-bottom: 8px; }
+    .days { display: flex; flex-wrap: wrap; margin-bottom: 8px; }
+    .day { margin-right: 8px; font-size: 0.9em; }
+    button { padding: 4px 8px; }
+    .site-entry { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; font-size: 0.9em; }
+    .remove-btn { background: none; border: none; color: red; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h3>Block a Site</h3>
+  <form id="block-form">
+    <input type="text" id="site-url" placeholder="example.com" required />
+    <div class="days">
+      <label class="day"><input type="checkbox" value="0" />Sun</label>
+      <label class="day"><input type="checkbox" value="1" />Mon</label>
+      <label class="day"><input type="checkbox" value="2" />Tue</label>
+      <label class="day"><input type="checkbox" value="3" />Wed</label>
+      <label class="day"><input type="checkbox" value="4" />Thu</label>
+      <label class="day"><input type="checkbox" value="5" />Fri</label>
+      <label class="day"><input type="checkbox" value="6" />Sat</label>
+    </div>
+    <button type="submit">Block</button>
+  </form>
+  <h3>Blocked Sites</h3>
+  <div id="blocked-list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
