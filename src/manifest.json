@@ -9,6 +9,11 @@
     "default_popup": "popup.html",
     "default_title": "Site Blocker"
   },
+  "icons": {
+    "16": "../Minimal Site Blocker/Shared (App)/Assets.xcassets/AppIcon.appiconset/AppIcon_16x16.png",
+    "48": "../Minimal Site Blocker/Shared (App)/Assets.xcassets/AppIcon.appiconset/AppIcon_32x32.png",
+    "128": "../Minimal Site Blocker/Shared (App)/Assets.xcassets/AppIcon.appiconset/AppIcon_128x128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

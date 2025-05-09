@@ -1,0 +1,6 @@
+- no "how-to" screen is necessary becuase it will be intuitive. you enable it in extensions on safari.
+- this is a privacy play. the standard way of creating a website blocker extension is to look at what website your navigating to, check it against your blocked list, act if it's blocked. therefore these extensions know your browsing activity, and sell that data to other companies or use it to sell to you.
+- name of app: minimal site blocker
+- i made it for myself so i could block a site without having to sell my website activity. you can use it too.
+- open source
+- it will be available as an ios and mac app
